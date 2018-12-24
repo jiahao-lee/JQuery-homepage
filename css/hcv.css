@@ -1,0 +1,514 @@
+.header{
+    width:1525px;
+    height: 2100px;
+    margin: 0 auto;
+}
+
+#top-title{
+    width: 1525px;
+    height: 100px;
+    position: absolute;
+    top:0px;
+    left: 0px;
+}
+
+#left{
+    width:305px;
+    height: 2000px;
+    /*background-color: yellow;*/
+    position:fixed;
+    top: 100px;
+    left: 0px;
+}
+#right{
+    width:1220px;
+    height: 2000px;
+    /* background-color:pink;*/
+    position: absolute;
+    left:305px;
+    top:100px;
+}
+
+.photo{
+    width: 100%;
+    height: 380px;
+    /*background-color:blue;*/
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    /*background-image: url("/FIRST/images/beijing.jpg");*/
+}
+
+.main {
+    width: 100%;
+    height: 600px;
+
+}
+
+.detail {
+    width: 100%;
+    height: 800px;
+
+}
+
+.other{
+    width: 100%;
+    height: 200px;
+}
+/***************************************top板块*******************************************************/
+#close{
+    position: absolute;
+    left: 1505px;
+    top: 5px;
+}
+/**************************************left板块*******************************************************/
+.plus{
+    position:relative;
+    top:50px;
+    left:50px;
+}
+
+.one{
+    position: relative;
+    top:60px;
+    left:20px ;
+    list-style: none;
+    font-size: 20px;
+    line-height:50px;
+}
+
+.hrstyle{
+    width:80%;
+    margin:0 auto;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    position:relative;
+    top:50px;
+
+}
+
+.tel{
+    position: relative;
+    top:60px;
+    left:50px ;
+}
+
+.tel i {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+
+.feed {
+    opacity: 0.8;
+    color: #666;
+    font-size: 14px;
+    display: inline-block;
+    width: 35%;
+    text-decoration: none;
+}
+
+.feed-qq i {
+    background: #FF5E52;
+}
+
+.feed-qq:hover {
+    color: #FF5E52;
+    opacity: 1;
+}
+
+.feed-wx i {
+    background: #1FAEFF;
+}
+
+.feed-wx:hover {
+    color: #1FAEFF;
+    opacity: 1;
+}
+
+.feed-wb i {
+    background: blue;
+}
+
+.feed-wb:hover {
+    color: blue;
+    opacity: 1;
+}
+
+.feed-call i {
+    background: #4BC916;
+}
+
+.feed-call:hover {
+    color: #4BC916;
+    opacity: 1;
+}
+
+#QQ{
+    background-color: white;
+    width: 200px;
+    height: 240px;
+    position: fixed;
+    left: 100px;
+    top: 620px;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+}
+
+.qq-jpg{
+    position: absolute;
+    top: 50px;
+    left: 27px;
+}
+
+#wx{
+    background-color: white;
+    width: 200px;
+    height: 240px;
+    position: fixed;
+    left: 220px;
+    top: 620px;
+    padding: 0px;
+    margin: 0px;
+    z-index: 2;
+    display: none;
+}
+
+.wx-png{
+    position: absolute;
+    left: 20px;
+    top: 50px;
+}
+
+
+#wb{
+    background-color: white;
+    width: 200px;
+    height: 240px;
+    position: fixed;
+    left: 100px;
+    top: 642px;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+}
+
+.wb-png{
+    position: absolute;
+    left: 20px;
+    top: 50px;
+}
+
+#zfb{
+    background-color: white;
+    width: 200px;
+    height: 240px;
+    position: fixed;
+    left: 220px;
+    top: 642px;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+    z-index: 2;
+}
+
+.zfb-jpg{
+    position: absolute;
+    left: 20px;
+    top: 50px;
+}
+
+.daojishi{
+    width: 305px;
+    height: 280px;
+    position: fixed;
+    top: 660px;
+}
+
+.vacation{
+    text-align: center;
+    font-size: 20px;
+}
+
+#timer
+{
+    position: absolute;
+    top: 50px;
+    left: 60px;
+}
+/**********************************************photo板块*******************************************/
+
+.word-three{
+    position: absolute;
+    left: 380px;
+    top: 118px;
+}
+
+/************************************************main板块******************************************/
+.yellow-people{
+    position: absolute;
+    top: 600px;
+    left: 400px;
+}
+
+.yellow-people-moon1{
+    position: absolute;
+    left: 970px;
+    top: 830px;
+}
+
+.yellow-people-moon2{
+    position: absolute;
+    left: 1090px;
+    top: 970px;
+}
+/************************************************体育**********************************************/
+.sports,.game,.food,.life{
+    width:608px;
+    height: 300px;
+}
+
+.sports{
+    position:absolute ;
+    top:380px;
+    z-index: 1;
+}
+
+.ty,.dj,.ms,.sh{
+    font-size: 30px;
+    color: black;
+    position:absolute ;
+    left:50px;
+    top:30px;
+}
+
+.ty:hover{
+    color: blue;
+    opacity: 1;
+}
+
+.retirement{
+    position: absolute;
+    top:80px;
+    left: 50px;
+}
+
+.sports-main{
+    position: absolute;
+    top:80px;
+    left:275px;
+}
+
+/**********************************************电竞**********************************************/
+.game{
+    position:absolute ;
+    left:608px;
+    top:380px;
+}
+
+.dj:hover{
+    color: blue;
+    opacity: 1;
+}
+
+.game-team{
+    position: absolute;
+    top:80px;
+    left: 50px;
+}
+
+.game-main{
+    position: absolute;
+    top:80px;
+    left:275px;
+}
+
+/********************************************美食*****************************************************/
+.food{
+    position:absolute;
+    top:680px;
+}
+
+
+.ms:hover{
+    color: blue;
+    opacity: 1;
+}
+
+.cate{
+    position: absolute;
+    top:80px;
+    left: 50px;
+}
+
+.food-main{
+    position: absolute;
+    top:80px;
+    left:275px;
+}
+
+/*****************************************生活******************************************************/
+.life{
+    position:absolute;
+    top:680px;
+    left: 608px;
+}
+
+.sh:hover{
+    color: blue;
+    opacity: 1;
+}
+
+.life-now{
+    position: absolute;
+    top:80px;
+    left: 50px;
+}
+
+.life-main{
+    position: absolute;
+    top:80px;
+    left:275px;
+}
+
+/*****************************************detail板块********************************************************/
+.title{
+    font-size: 40px;
+    position: absolute;
+    top: 1000px;
+}
+
+.moon{
+    left:50px;
+}
+
+.pants{
+    position: absolute;
+    left: 170px;
+    top: 980px;
+}
+
+.qx{
+    left: 640px;
+}
+
+.witch-moon{
+    position: absolute;
+    left: 820px;
+    top: 900px;
+}
+
+.watch-photo{
+    width: 1000px;
+    height:562px;
+    margin: 0px;
+    overflow: hidden;
+    position: absolute;
+    top: 1120px;
+    left: 60px;
+}
+.photo-box {
+    width: 9000px;
+    height: 562px;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.scenery{
+    float: left;
+    list-style-type: none;
+}
+
+#turn{
+    position: absolute;
+    top: 260px;
+    width: 1000px;
+    height: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.turn-ground{
+    width: 30px;
+    height: 50px;
+    background-color: gainsboro;
+    opacity:0.5;
+}
+
+.tl{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.tr{
+    position: absolute;
+    left: 970px;
+    top: 0px;
+}
+
+.circle{
+    width: 370px;
+    height: 13px;
+    padding: 0px;
+    position: absolute;
+    top: 530px;
+    left: 70px;
+    list-style-type: none;
+}
+
+ol li{
+    text-align: center;
+    height: 13px;
+    float: left;
+    border-radius: 50% ;
+    width: 13px;
+    background: #ffffff;
+    margin-left: 24px;
+    cursor: pointer;
+}
+
+.new{
+    background: yellow;
+}
+
+
+/*****************************************other板块*******************************************************************/
+.click{
+    position: absolute;
+    top: 1780px;
+    left:200px;
+}
+
+.yellow-people-three{
+    position: absolute;
+    left: 750px;
+    top: 1682px;
+}
+
+.other li{
+    width:150px;
+    height:30px;
+    float:left;
+    list-style-type:none;
+    text-align:center;
+    background-color: yellow;
+}
+
+#boringclick,#happyclick,#unhappyclick,#call-meclick{
+    width: 600px;
+    height: 170px;
+    background-color: black;
+    position: absolute;
+    top: 1810px;
+    left: 240px;
+    overflow: hidden;
+}
+
+#happyclick,#unhappyclick,#call-meclick{
+    display: none;
+}
+
